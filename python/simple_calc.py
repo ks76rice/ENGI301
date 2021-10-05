@@ -85,7 +85,7 @@ def get_user_input():
     
     try:
         operator = input("Enter the operator (valid operators are +, -, *, /, >>, <<, .., and %): ")
-        
+#Convert numbers 1 and 2 to integers to support left and right shift operators
         if operator == "<<" or ">>":
             number1  = int(float(input("Enter the first number:  ")))
             number2  = int(float(input("Enter the second number:  ")))
